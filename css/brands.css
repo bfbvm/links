@@ -1077,3 +1077,60 @@ button:hover,
 .button.button-zoom:focus {
   filter: brightness(90%);
 }
+
+/* CD Announcement Styles */
+.announcement-section {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.cd-cover {
+  display: block; /* Keep as block to allow margin auto */
+  max-width: 100%; /* Allow image to fill container width if needed */
+  height: auto;
+  margin: 0 auto 1.5rem auto; /* Center horizontally, keep bottom margin for spacing below image */
+  border-radius: 8px 8px 0 0; /* Round only the top corners if desired */
+  /* box-shadow: 0 4px 8px rgba(0,0,0,0.1); Removed shadow or adjust as needed */
+}
+
+.announcement-box {
+  background-color: #12242a; /* CD cover background color */
+  color: #ffffff; /* White text for contrast */
+  padding: 0; /* Remove padding, image will be flush */
+  padding-bottom: 1.5rem; /* Add padding only at the bottom for text/buttons */
+  border-radius: 15px; /* Rounded corners for the whole box */
+  margin-bottom: 1.5rem;
+  text-align: center;
+  overflow: hidden; /* Ensures image respects the border-radius */
+}
+
+.announcement-box h2 {
+  margin-top: 1rem; /* Add space above heading */
+  margin-bottom: 0.5rem;
+  font-size: 1.7em; /* Adjust as needed */
+  color: #ffffff; /* Ensure heading is white */
+  padding: 0 1rem; /* Add horizontal padding for text */
+  line-height: 1.1; /* Increased line height for better separation */
+}
+
+.announcement-box p {
+  margin-bottom: 1.5rem;
+  font-size: 1em; /* Adjust as needed */
+  color: #e0e0e0; /* Slightly dimmer white for paragraph */
+  padding: 0 1rem; /* Add horizontal padding for text */
+}
+
+/* Smaller button style */
+.button.button-small {
+  width: 250px; /* Smaller width */
+  font-size: 16px; /* Smaller font size */
+  padding: 10px 8px 8px 8px; /* Adjust padding */
+  margin-bottom: 0.75rem; /* Adjust spacing */
+}
+
+/* Avatar Styles */
+.avatar {
+  /* ... existing avatar styles if any ... */
+  padding: 10px; /* Add padding around the logo */
+  box-sizing: border-box; /* Include padding in the element's total width and height */
+}
